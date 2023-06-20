@@ -19,17 +19,17 @@ public class TestProject {
     void validateWebsite() {
         boolean validate = Browser.elementExist(By.xpath("//div[@class='FPdoLc lJ9FBc']//input[@value='Pesquisa Google']"));
         assertTrue(validate);
-        System.out.println("Validado que estamos no site do google");
+        System.out.println("Validado que entramos no site do google");
     }
 
     @Test
     @Order(3)
     void search()  {
-        Browser.write(By.xpath("//*[@id='APjFqb']"), "facebook");
+        Browser.write(By.xpath("//*[@id='APjFqb']"), "Instagram");
         Browser.click(By.xpath("//div[@class='FPdoLc lJ9FBc']//input[@value='Pesquisa Google']"));
         Browser.waiting(2);
-        assertTrue(Browser.elementExist(By.xpath("//h3[text()='Facebook – entre ou cadastre-se']")));
-        System.out.println("Validado que pesquisou o facebook na pagina de pesquisa do google");
+        assertTrue(Browser.elementExist(By.xpath("//h3[text()='Instagram – entre ou cadastre-se']")));
+        System.out.println("Validado que pesquisou o instagram na pagina de pesquisa do google");
     }
 
 
