@@ -1,20 +1,19 @@
-## 👏 Projeto Final do Bootcamp QA Academy - Sysmap
-Projeto que visa trabalhar com automatização de testes web
+##  Projeto Final do Bootcamp QA Academy - Sysmap
+Projeto que propõe desde o seu inicio o ensino sobre testes de software, testes ageis e sua utilização em sites web. 
 
-## 💡 Technologies used
+##  Technologies used
 
-- [x] Java
-- [x] Maven
-- [x] Junit Jupiter
-- [x] Selenium
+-  Java
+-  Junit Jupiter
+-  Selenium
 
-## 🚀  Massa de teste
+##   Massa de teste
 
 
 
 url: https://openweathermap.org/
 
 
-## 🌎 License
+##  License
 
 This project is under the MIT license. See the [LICENSE](https://choosealicense.com/licenses/mit/) file for more details.
