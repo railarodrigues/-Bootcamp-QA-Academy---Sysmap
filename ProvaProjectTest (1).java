@@ -50,7 +50,7 @@ public class ProvaProjectTest {
         System.out.println("Retorno da API:"+tempAPI+" Valor no site: "+tempSite);
         boolean validate = (tempAPI == tempSite);
         assertTrue(validate);
-        System.out.println("CT2 - Validado que a temp em grau Celsius no site é igual a temp da chamada API");
+        System.out.println("CT2 - Validado que a temperatura em grau Celsius no site é igual a temperatura da chamada API");
     }
 
     @Test
@@ -65,7 +65,7 @@ public class ProvaProjectTest {
         System.out.println("Retorno da API:"+tempAPI+" Valor no site: "+tempSite);
         boolean validate = (tempAPI == tempSite);
         assertTrue(validate);
-        System.out.println("CT3 - Validado que a temp em grau Fahrenheit no site é igual a temp da chamada API");
+        System.out.println("CT3 - Validado que a temperatura em grau Fahrenheit no site é igual a temperatura da chamada API");
     }
 
 
