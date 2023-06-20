@@ -37,7 +37,7 @@ public class Api {
         String retorno = null;
         city.replaceAll(" ", "-");
         try (CloseableHttpClient client = HttpClients.createDefault()) {
-            String uri = "https://api.openweathermap.org/data/2.5/weather?" + getLatLon(city) + "&appid=" + apiKey;HttpGet get = new HttpGet(uri);
+            String uri = "https://api.openweathermap.org/data/2.6/weather?" + getLatLon(city) + "&appid=" + apiKey;HttpGet get = new HttpGet(uri);
             HttpResponse response = client.execute(get);
             String resp = EntityUtils.toString(response.getEntity());
             JSONObject obj = new JSONObject(resp);
